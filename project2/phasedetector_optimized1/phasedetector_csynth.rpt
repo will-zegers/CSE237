@@ -1,0 +1,159 @@
+
+
+================================================================
+== Vivado HLS Report for 'phasedetector'
+================================================================
+* Date:           Thu Oct 20 01:34:46 2016
+
+* Version:        2015.4 (Build 1412921 on Wed Nov 18 09:58:55 AM 2015)
+* Project:        phase_detector
+* Solution:       solution1
+* Product family: zynq
+* Target device:  xc7z020clg484-1
+
+
+================================================================
+== Performance Estimates
+================================================================
++ Timing (ns): 
+    * Summary: 
+    +--------+-------+----------+------------+
+    |  Clock | Target| Estimated| Uncertainty|
+    +--------+-------+----------+------------+
+    |ap_clk  |  10.00|      8.53|        1.25|
+    +--------+-------+----------+------------+
+
++ Latency (clock cycles): 
+    * Summary: 
+    +-----+-----+-----+-----+---------+
+    |  Latency  |  Interval | Pipeline|
+    | min | max | min | max |   Type  |
+    +-----+-----+-----+-----+---------+
+    |   33|   33|   34|   34|   none  |
+    +-----+-----+-----+-----+---------+
+
+    + Detail: 
+        * Instance: 
+        +----------------------------------------+------------------------------+-----+-----+-----+-----+---------+
+        |                                        |                              |  Latency  |  Interval | Pipeline|
+        |                Instance                |            Module            | min | max | min | max |   Type  |
+        +----------------------------------------+------------------------------+-----+-----+-----+-----+---------+
+        |grp_phasedetector_cordiccart2pol_fu_90  |phasedetector_cordiccart2pol  |   21|   21|   21|   21|   none  |
+        |grp_phasedetector_firQ1_fu_96           |phasedetector_firQ1           |    8|    8|    8|    8|   none  |
+        |grp_phasedetector_firQ2_fu_112          |phasedetector_firQ2           |    8|    8|    8|    8|   none  |
+        |grp_phasedetector_firI1_fu_128          |phasedetector_firI1           |    8|    8|    8|    8|   none  |
+        |grp_phasedetector_firI2_fu_144          |phasedetector_firI2           |    8|    8|    8|    8|   none  |
+        +----------------------------------------+------------------------------+-----+-----+-----+-----+---------+
+
+        * Loop: 
+        N/A
+
+
+
+================================================================
+== Utilization Estimates
+================================================================
+* Summary: 
++-----------------+---------+-------+--------+-------+
+|       Name      | BRAM_18K| DSP48E|   FF   |  LUT  |
++-----------------+---------+-------+--------+-------+
+|DSP              |        -|      -|       -|      -|
+|Expression       |        -|      -|       0|     40|
+|FIFO             |        -|      -|       -|      -|
+|Instance         |       32|      -|    3853|   6153|
+|Memory           |        -|      -|       -|      -|
+|Multiplexer      |        -|      -|       -|      1|
+|Register         |        -|      -|     126|      -|
++-----------------+---------+-------+--------+-------+
+|Total            |       32|      0|    3979|   6194|
++-----------------+---------+-------+--------+-------+
+|Available        |      280|    220|  106400|  53200|
++-----------------+---------+-------+--------+-------+
+|Utilization (%)  |       11|      0|       3|     11|
++-----------------+---------+-------+--------+-------+
+
++ Detail: 
+    * Instance: 
+    +----------------------------------------+------------------------------+---------+-------+------+------+
+    |                Instance                |            Module            | BRAM_18K| DSP48E|  FF  |  LUT |
+    +----------------------------------------+------------------------------+---------+-------+------+------+
+    |grp_phasedetector_cordiccart2pol_fu_90  |phasedetector_cordiccart2pol  |        0|      0|  1433|  4089|
+    |grp_phasedetector_firI1_fu_128          |phasedetector_firI1           |        8|      0|   605|   506|
+    |grp_phasedetector_firI2_fu_144          |phasedetector_firI2           |        8|      0|   605|   506|
+    |grp_phasedetector_firQ1_fu_96           |phasedetector_firQ1           |        8|      0|   605|   526|
+    |grp_phasedetector_firQ2_fu_112          |phasedetector_firQ2           |        8|      0|   605|   526|
+    +----------------------------------------+------------------------------+---------+-------+------+------+
+    |Total                                   |                              |       32|      0|  3853|  6153|
+    +----------------------------------------+------------------------------+---------+-------+------+------+
+
+    * DSP48: 
+    N/A
+
+    * Memory: 
+    N/A
+
+    * FIFO: 
+    N/A
+
+    * Expression: 
+    +---------------+----------+-------+---+----+------------+------------+
+    | Variable Name | Operation| DSP48E| FF| LUT| Bitwidth P0| Bitwidth P1|
+    +---------------+----------+-------+---+----+------------+------------+
+    |x_V_fu_166_p2  |     +    |      0|  0|  20|          20|          20|
+    |y_V_fu_178_p2  |     -    |      0|  0|  20|          20|          20|
+    +---------------+----------+-------+---+----+------------+------------+
+    |Total          |          |      0|  0|  40|          40|          40|
+    +---------------+----------+-------+---+----+------------+------------+
+
+    * Multiplexer: 
+    +-----------+----+-----------+-----+-----------+
+    |    Name   | LUT| Input Size| Bits| Total Bits|
+    +-----------+----+-----------+-----+-----------+
+    |ap_NS_fsm  |   1|          6|    1|          6|
+    +-----------+----+-----------+-----+-----------+
+    |Total      |   1|          6|    1|          6|
+    +-----------+----+-----------+-----+-----------+
+
+    * Register: 
+    +--------------------------------------------------------------+----+----+-----+-----------+
+    |                             Name                             | FF | LUT| Bits| Const Bits|
+    +--------------------------------------------------------------+----+----+-----+-----------+
+    |IinIfir_V_reg_206                                             |  19|   0|   19|          0|
+    |IinQfir_V_reg_221                                             |  19|   0|   19|          0|
+    |QinIfir_V_reg_216                                             |  19|   0|   19|          0|
+    |QinQfir_V_reg_211                                             |  19|   0|   19|          0|
+    |ap_CS_fsm                                                     |   5|   0|    5|          0|
+    |grp_phasedetector_cordiccart2pol_fu_90_ap_start_ap_start_reg  |   1|   0|    1|          0|
+    |grp_phasedetector_firI1_fu_128_ap_start_ap_start_reg          |   1|   0|    1|          0|
+    |grp_phasedetector_firI2_fu_144_ap_start_ap_start_reg          |   1|   0|    1|          0|
+    |grp_phasedetector_firQ1_fu_96_ap_start_ap_start_reg           |   1|   0|    1|          0|
+    |grp_phasedetector_firQ2_fu_112_ap_start_ap_start_reg          |   1|   0|    1|          0|
+    |x_V_reg_226                                                   |  20|   0|   20|          0|
+    |y_V_reg_231                                                   |  20|   0|   20|          0|
+    +--------------------------------------------------------------+----+----+-----+-----------+
+    |Total                                                         | 126|   0|  126|          0|
+    +--------------------------------------------------------------+----+----+-----+-----------+
+
+
+
+================================================================
+== Interface
+================================================================
+* Summary: 
++----------------+-----+-----+------------+---------------+--------------+
+|    RTL Ports   | Dir | Bits|  Protocol  | Source Object |    C Type    |
++----------------+-----+-----+------------+---------------+--------------+
+|ap_clk          |  in |    1| ap_ctrl_hs | phasedetector | return value |
+|ap_rst          |  in |    1| ap_ctrl_hs | phasedetector | return value |
+|ap_start        |  in |    1| ap_ctrl_hs | phasedetector | return value |
+|ap_done         | out |    1| ap_ctrl_hs | phasedetector | return value |
+|ap_idle         | out |    1| ap_ctrl_hs | phasedetector | return value |
+|ap_ready        | out |    1| ap_ctrl_hs | phasedetector | return value |
+|I_V             |  in |   20|   ap_none  |      I_V      |    scalar    |
+|Q_V             |  in |   20|   ap_none  |      Q_V      |    scalar    |
+|R_V             | out |   20|   ap_vld   |      R_V      |    pointer   |
+|R_V_ap_vld      | out |    1|   ap_vld   |      R_V      |    pointer   |
+|theta_V         | out |   20|   ap_vld   |    theta_V    |    pointer   |
+|theta_V_ap_vld  | out |    1|   ap_vld   |    theta_V    |    pointer   |
++----------------+-----+-----+------------+---------------+--------------+
+

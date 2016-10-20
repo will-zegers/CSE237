@@ -1,0 +1,582 @@
+   Compiling ../../../../../../Workspaces/cse237c_wzegers/project2/cordic_LUT/cordiccart2pol_test.cpp in debug mode
+   Compiling ../../../../../../Workspaces/cse237c_wzegers/project2/cordic_LUT/cordiccart2pol.cpp in debug mode
+   Generating csim.exe
+input: x=-1.0000, y=-1.0000
+true results: R=1.4142, Theta=-2.3562
+your results: R=1.4142, Theta=-2.3562
+
+input: x=-1.0000, y=-0.8331
+true results: R=1.3016, Theta=-2.4470
+your results: R=1.3016, Theta=-2.4469
+
+input: x=-1.0000, y=-0.6663
+true results: R=1.2016, Theta=-2.5539
+your results: R=1.2017, Theta=-2.5537
+
+input: x=-1.0000, y=-0.4994
+true results: R=1.1178, Theta=-2.6784
+your results: R=1.1179, Theta=-2.6782
+
+input: x=-1.0000, y=-0.3325
+true results: R=1.0538, Theta=-2.8206
+your results: R=1.0540, Theta=-2.8202
+
+input: x=-1.0000, y=-0.1657
+true results: R=1.0136, Theta=-2.9774
+your results: R=1.0137, Theta=-2.9769
+
+input: x=-1.0000, y=0.0012
+true results: R=1.0000, Theta=3.1404
+your results: R=1.0000, Theta=3.1410
+
+input: x=-1.0000, y=0.1681
+true results: R=1.0140, Theta=2.9751
+your results: R=1.0139, Theta=2.9758
+
+input: x=-1.0000, y=0.3349
+true results: R=1.0546, Theta=2.8184
+your results: R=1.0543, Theta=2.8191
+
+input: x=-1.0000, y=0.5018
+true results: R=1.1188, Theta=2.6765
+your results: R=1.1184, Theta=2.6772
+
+input: x=-1.0000, y=0.6687
+true results: R=1.2030, Theta=2.5522
+your results: R=1.2024, Theta=2.5529
+
+input: x=-1.0000, y=0.8355
+true results: R=1.3031, Theta=2.4456
+your results: R=1.3024, Theta=2.4462
+
+input: x=-0.8331, y=-1.0000
+true results: R=1.3016, Theta=-2.2654
+your results: R=1.3016, Theta=-2.2655
+
+input: x=-0.8331, y=-0.8331
+true results: R=1.1782, Theta=-2.3562
+your results: R=1.1784, Theta=-2.3562
+
+input: x=-0.8331, y=-0.6663
+true results: R=1.0668, Theta=-2.4670
+your results: R=1.0670, Theta=-2.4669
+
+input: x=-0.8331, y=-0.4994
+true results: R=0.9713, Theta=-2.6016
+your results: R=0.9716, Theta=-2.6014
+
+input: x=-0.8331, y=-0.3325
+true results: R=0.8970, Theta=-2.7618
+your results: R=0.8973, Theta=-2.7615
+
+input: x=-0.8331, y=-0.1657
+true results: R=0.8494, Theta=-2.9453
+your results: R=0.8496, Theta=-2.9448
+
+input: x=-0.8331, y=0.0012
+true results: R=0.8331, Theta=3.1402
+your results: R=0.8332, Theta=3.1409
+
+input: x=-0.8331, y=0.1681
+true results: R=0.8499, Theta=2.9425
+your results: R=0.8499, Theta=2.9434
+
+input: x=-0.8331, y=0.3349
+true results: R=0.8979, Theta=2.7593
+your results: R=0.8977, Theta=2.7602
+
+input: x=-0.8331, y=0.5018
+true results: R=0.9726, Theta=2.5995
+your results: R=0.9722, Theta=2.6003
+
+input: x=-0.8331, y=0.6687
+true results: R=1.0683, Theta=2.4653
+your results: R=1.0677, Theta=2.4661
+
+input: x=-0.8331, y=0.8355
+true results: R=1.1799, Theta=2.3548
+your results: R=1.1792, Theta=2.3555
+
+input: x=-0.6663, y=-1.0000
+true results: R=1.2016, Theta=-2.1585
+your results: R=1.2017, Theta=-2.1587
+
+input: x=-0.6663, y=-0.8331
+true results: R=1.0668, Theta=-2.2454
+your results: R=1.0670, Theta=-2.2454
+
+input: x=-0.6663, y=-0.6663
+true results: R=0.9422, Theta=-2.3562
+your results: R=0.9425, Theta=-2.3562
+
+input: x=-0.6663, y=-0.4994
+true results: R=0.8327, Theta=-2.4984
+your results: R=0.8330, Theta=-2.4982
+
+input: x=-0.6663, y=-0.3325
+true results: R=0.7446, Theta=-2.6787
+your results: R=0.7450, Theta=-2.6783
+
+input: x=-0.6663, y=-0.1657
+true results: R=0.6866, Theta=-2.8979
+your results: R=0.6869, Theta=-2.8972
+
+input: x=-0.6663, y=0.0012
+true results: R=0.6663, Theta=3.1398
+your results: R=0.6665, Theta=3.1407
+
+input: x=-0.6663, y=0.1681
+true results: R=0.6871, Theta=2.8945
+your results: R=0.6872, Theta=2.8956
+
+input: x=-0.6663, y=0.3349
+true results: R=0.7457, Theta=2.6758
+your results: R=0.7455, Theta=2.6769
+
+input: x=-0.6663, y=0.5018
+true results: R=0.8341, Theta=2.4961
+your results: R=0.8337, Theta=2.4971
+
+input: x=-0.6663, y=0.6687
+true results: R=0.9439, Theta=2.3544
+your results: R=0.9434, Theta=2.3553
+
+input: x=-0.6663, y=0.8355
+true results: R=1.0687, Theta=2.2440
+your results: R=1.0679, Theta=2.2447
+
+input: x=-0.4994, y=-1.0000
+true results: R=1.1178, Theta=-2.0340
+your results: R=1.1179, Theta=-2.0342
+
+input: x=-0.4994, y=-0.8331
+true results: R=0.9713, Theta=-2.1108
+your results: R=0.9716, Theta=-2.1110
+
+input: x=-0.4994, y=-0.6663
+true results: R=0.8327, Theta=-2.2140
+your results: R=0.8330, Theta=-2.2142
+
+input: x=-0.4994, y=-0.4994
+true results: R=0.7063, Theta=-2.3562
+your results: R=0.7067, Theta=-2.3562
+
+input: x=-0.4994, y=-0.3325
+true results: R=0.6000, Theta=-2.5541
+your results: R=0.6005, Theta=-2.5539
+
+input: x=-0.4994, y=-0.1657
+true results: R=0.5262, Theta=-2.8213
+your results: R=0.5266, Theta=-2.8206
+
+input: x=-0.4994, y=0.0012
+true results: R=0.4994, Theta=3.1392
+your results: R=0.4997, Theta=3.1404
+
+input: x=-0.4994, y=0.1681
+true results: R=0.5269, Theta=2.8170
+your results: R=0.5270, Theta=2.8184
+
+input: x=-0.4994, y=0.3349
+true results: R=0.6013, Theta=2.5508
+your results: R=0.6011, Theta=2.5522
+
+input: x=-0.4994, y=0.5018
+true results: R=0.7080, Theta=2.3538
+your results: R=0.7075, Theta=2.3550
+
+input: x=-0.4994, y=0.6687
+true results: R=0.8346, Theta=2.2123
+your results: R=0.8340, Theta=2.2133
+
+input: x=-0.4994, y=0.8355
+true results: R=0.9734, Theta=2.1095
+your results: R=0.9726, Theta=2.1104
+
+input: x=-0.3325, y=-1.0000
+true results: R=1.0538, Theta=-1.8918
+your results: R=1.0540, Theta=-1.8922
+
+input: x=-0.3325, y=-0.8331
+true results: R=0.8970, Theta=-1.9506
+your results: R=0.8973, Theta=-1.9509
+
+input: x=-0.3325, y=-0.6663
+true results: R=0.7446, Theta=-2.0337
+your results: R=0.7450, Theta=-2.0341
+
+input: x=-0.3325, y=-0.4994
+true results: R=0.6000, Theta=-2.1582
+your results: R=0.6005, Theta=-2.1585
+
+input: x=-0.3325, y=-0.3325
+true results: R=0.4703, Theta=-2.3562
+your results: R=0.4708, Theta=-2.3562
+
+input: x=-0.3325, y=-0.1657
+true results: R=0.3715, Theta=-2.6794
+your results: R=0.3721, Theta=-2.6787
+
+input: x=-0.3325, y=0.0012
+true results: R=0.3325, Theta=3.1380
+your results: R=0.3329, Theta=3.1398
+
+input: x=-0.3325, y=0.1681
+true results: R=0.3726, Theta=2.6736
+your results: R=0.3726, Theta=2.6758
+
+input: x=-0.3325, y=0.3349
+true results: R=0.4720, Theta=2.3526
+your results: R=0.4717, Theta=2.3544
+
+input: x=-0.3325, y=0.5018
+true results: R=0.6020, Theta=2.1560
+your results: R=0.6015, Theta=2.1574
+
+input: x=-0.3325, y=0.6687
+true results: R=0.7468, Theta=2.0323
+your results: R=0.7461, Theta=2.0334
+
+input: x=-0.3325, y=0.8355
+true results: R=0.8993, Theta=1.9496
+your results: R=0.8984, Theta=1.9504
+
+input: x=-0.1657, y=-1.0000
+true results: R=1.0136, Theta=-1.7350
+your results: R=1.0137, Theta=-1.7355
+
+input: x=-0.1657, y=-0.8331
+true results: R=0.8494, Theta=-1.7671
+your results: R=0.8496, Theta=-1.7676
+
+input: x=-0.1657, y=-0.6663
+true results: R=0.6866, Theta=-1.8145
+your results: R=0.6869, Theta=-1.8151
+
+input: x=-0.1657, y=-0.4994
+true results: R=0.5262, Theta=-1.8911
+your results: R=0.5266, Theta=-1.8918
+
+input: x=-0.1657, y=-0.3325
+true results: R=0.3715, Theta=-2.0330
+your results: R=0.3721, Theta=-2.0337
+
+input: x=-0.1657, y=-0.1657
+true results: R=0.2343, Theta=-2.3562
+your results: R=0.2350, Theta=-2.3562
+
+input: x=-0.1657, y=0.0012
+true results: R=0.1657, Theta=3.1343
+your results: R=0.1662, Theta=3.1380
+
+input: x=-0.1657, y=0.1681
+true results: R=0.2360, Theta=2.3490
+your results: R=0.2358, Theta=2.3526
+
+input: x=-0.1657, y=0.3349
+true results: R=0.3737, Theta=2.0301
+your results: R=0.3732, Theta=2.0323
+
+input: x=-0.1657, y=0.5018
+true results: R=0.5284, Theta=1.8897
+your results: R=0.5277, Theta=1.8911
+
+input: x=-0.1657, y=0.6687
+true results: R=0.6889, Theta=1.8137
+your results: R=0.6880, Theta=1.8147
+
+input: x=-0.1657, y=0.8355
+true results: R=0.8518, Theta=1.7665
+your results: R=0.8508, Theta=1.7674
+
+input: x=0.0012, y=-1.0000
+true results: R=1.0000, Theta=-1.5696
+your results: R=1.0000, Theta=-1.5702
+
+input: x=0.0012, y=-0.8331
+true results: R=0.8331, Theta=-1.5694
+your results: R=0.8332, Theta=-1.5701
+
+input: x=0.0012, y=-0.6663
+true results: R=0.6663, Theta=-1.5690
+your results: R=0.6665, Theta=-1.5699
+
+input: x=0.0012, y=-0.4994
+true results: R=0.4994, Theta=-1.5684
+your results: R=0.4997, Theta=-1.5696
+
+input: x=0.0012, y=-0.3325
+true results: R=0.3325, Theta=-1.5672
+your results: R=0.3329, Theta=-1.5690
+
+input: x=0.0012, y=-0.1657
+true results: R=0.1657, Theta=-1.5636
+your results: R=0.1662, Theta=-1.5672
+
+input: x=0.0012, y=0.0012
+true results: R=0.0017, Theta=0.7854
+your results: R=0.0008, Theta=0.7854
+
+input: x=0.0012, y=0.1681
+true results: R=0.1681, Theta=1.5637
+your results: R=0.1674, Theta=1.5672
+
+input: x=0.0012, y=0.3349
+true results: R=0.3349, Theta=1.5672
+your results: R=0.3341, Theta=1.5690
+
+input: x=0.0012, y=0.5018
+true results: R=0.5018, Theta=1.5684
+your results: R=0.5009, Theta=1.5696
+
+input: x=0.0012, y=0.6687
+true results: R=0.6687, Theta=1.5690
+your results: R=0.6677, Theta=1.5699
+
+input: x=0.0012, y=0.8355
+true results: R=0.8355, Theta=1.5694
+your results: R=0.8344, Theta=1.5701
+
+input: x=0.1681, y=-1.0000
+true results: R=1.0140, Theta=-1.4043
+your results: R=1.0139, Theta=-1.4050
+
+input: x=0.1681, y=-0.8331
+true results: R=0.8499, Theta=-1.3717
+your results: R=0.8499, Theta=-1.3726
+
+input: x=0.1681, y=-0.6663
+true results: R=0.6871, Theta=-1.3237
+your results: R=0.6872, Theta=-1.3248
+
+input: x=0.1681, y=-0.4994
+true results: R=0.5269, Theta=-1.2462
+your results: R=0.5270, Theta=-1.2476
+
+input: x=0.1681, y=-0.3325
+true results: R=0.3726, Theta=-1.1028
+your results: R=0.3726, Theta=-1.1050
+
+input: x=0.1681, y=-0.1657
+true results: R=0.2360, Theta=-0.7782
+your results: R=0.2358, Theta=-0.7818
+
+input: x=0.1681, y=0.0012
+true results: R=0.1681, Theta=0.0071
+your results: R=0.1674, Theta=0.0036
+
+input: x=0.1681, y=0.1681
+true results: R=0.2377, Theta=0.7854
+your results: R=0.2367, Theta=0.7854
+
+input: x=0.1681, y=0.3349
+true results: R=0.3747, Theta=1.1057
+your results: R=0.3737, Theta=1.1064
+
+input: x=0.1681, y=0.5018
+true results: R=0.5292, Theta=1.2476
+your results: R=0.5281, Theta=1.2483
+
+input: x=0.1681, y=0.6687
+true results: R=0.6895, Theta=1.3246
+your results: R=0.6883, Theta=1.3252
+
+input: x=0.1681, y=0.8355
+true results: R=0.8523, Theta=1.3723
+your results: R=0.8511, Theta=1.3728
+
+input: x=0.3349, y=-1.0000
+true results: R=1.0546, Theta=-1.2476
+your results: R=1.0543, Theta=-1.2483
+
+input: x=0.3349, y=-0.8331
+true results: R=0.8979, Theta=-1.1886
+your results: R=0.8977, Theta=-1.1894
+
+input: x=0.3349, y=-0.6663
+true results: R=0.7457, Theta=-1.1050
+your results: R=0.7455, Theta=-1.1061
+
+input: x=0.3349, y=-0.4994
+true results: R=0.6013, Theta=-0.9800
+your results: R=0.6011, Theta=-0.9814
+
+input: x=0.3349, y=-0.3325
+true results: R=0.4720, Theta=-0.7818
+your results: R=0.4717, Theta=-0.7836
+
+input: x=0.3349, y=-0.1657
+true results: R=0.3737, Theta=-0.4593
+your results: R=0.3732, Theta=-0.4615
+
+input: x=0.3349, y=0.0012
+true results: R=0.3349, Theta=0.0036
+your results: R=0.3341, Theta=0.0018
+
+input: x=0.3349, y=0.1681
+true results: R=0.3747, Theta=0.4651
+your results: R=0.3737, Theta=0.4644
+
+input: x=0.3349, y=0.3349
+true results: R=0.4737, Theta=0.7854
+your results: R=0.4725, Theta=0.7854
+
+input: x=0.3349, y=0.5018
+true results: R=0.6033, Theta=0.9822
+your results: R=0.6021, Theta=0.9825
+
+input: x=0.3349, y=0.6687
+true results: R=0.7479, Theta=1.1064
+your results: R=0.7466, Theta=1.1068
+
+input: x=0.3349, y=0.8355
+true results: R=0.9002, Theta=1.1895
+your results: R=0.8988, Theta=1.1899
+
+input: x=0.5018, y=-1.0000
+true results: R=1.1188, Theta=-1.1057
+your results: R=1.1184, Theta=-1.1064
+
+input: x=0.5018, y=-0.8331
+true results: R=0.9726, Theta=-1.0287
+your results: R=0.9722, Theta=-1.0295
+
+input: x=0.5018, y=-0.6663
+true results: R=0.8341, Theta=-0.9253
+your results: R=0.8337, Theta=-0.9263
+
+input: x=0.5018, y=-0.4994
+true results: R=0.7080, Theta=-0.7830
+your results: R=0.7075, Theta=-0.7842
+
+input: x=0.5018, y=-0.3325
+true results: R=0.6020, Theta=-0.5852
+your results: R=0.6015, Theta=-0.5866
+
+input: x=0.5018, y=-0.1657
+true results: R=0.5284, Theta=-0.3189
+your results: R=0.5277, Theta=-0.3203
+
+input: x=0.5018, y=0.0012
+true results: R=0.5018, Theta=0.0024
+your results: R=0.5009, Theta=0.0012
+
+input: x=0.5018, y=0.1681
+true results: R=0.5292, Theta=0.3232
+your results: R=0.5281, Theta=0.3225
+
+input: x=0.5018, y=0.3349
+true results: R=0.6033, Theta=0.5886
+your results: R=0.6021, Theta=0.5883
+
+input: x=0.5018, y=0.5018
+true results: R=0.7097, Theta=0.7854
+your results: R=0.7084, Theta=0.7854
+
+input: x=0.5018, y=0.6687
+true results: R=0.8360, Theta=0.9270
+your results: R=0.8347, Theta=0.9272
+
+input: x=0.5018, y=0.8355
+true results: R=0.9746, Theta=1.0300
+your results: R=0.9732, Theta=1.0302
+
+input: x=0.6687, y=-1.0000
+true results: R=1.2030, Theta=-0.9814
+your results: R=1.2024, Theta=-0.9821
+
+input: x=0.6687, y=-0.8331
+true results: R=1.0683, Theta=-0.8945
+your results: R=1.0677, Theta=-0.8953
+
+input: x=0.6687, y=-0.6663
+true results: R=0.9439, Theta=-0.7836
+your results: R=0.9434, Theta=-0.7845
+
+input: x=0.6687, y=-0.4994
+true results: R=0.8346, Theta=-0.6415
+your results: R=0.8340, Theta=-0.6425
+
+input: x=0.6687, y=-0.3325
+true results: R=0.7468, Theta=-0.4615
+your results: R=0.7461, Theta=-0.4626
+
+input: x=0.6687, y=-0.1657
+true results: R=0.6889, Theta=-0.2429
+your results: R=0.6880, Theta=-0.2439
+
+input: x=0.6687, y=0.0012
+true results: R=0.6687, Theta=0.0018
+your results: R=0.6677, Theta=0.0009
+
+input: x=0.6687, y=0.1681
+true results: R=0.6895, Theta=0.2462
+your results: R=0.6883, Theta=0.2456
+
+input: x=0.6687, y=0.3349
+true results: R=0.7479, Theta=0.4644
+your results: R=0.7466, Theta=0.4640
+
+input: x=0.6687, y=0.5018
+true results: R=0.8360, Theta=0.6438
+your results: R=0.8347, Theta=0.6436
+
+input: x=0.6687, y=0.6687
+true results: R=0.9456, Theta=0.7854
+your results: R=0.9442, Theta=0.7854
+
+input: x=0.6687, y=0.8355
+true results: R=1.0702, Theta=0.8959
+your results: R=1.0687, Theta=0.8960
+
+input: x=0.8355, y=-1.0000
+true results: R=1.3031, Theta=-0.8748
+your results: R=1.3024, Theta=-0.8754
+
+input: x=0.8355, y=-0.8331
+true results: R=1.1799, Theta=-0.7840
+your results: R=1.1792, Theta=-0.7847
+
+input: x=0.8355, y=-0.6663
+true results: R=1.0687, Theta=-0.6732
+your results: R=1.0679, Theta=-0.6740
+
+input: x=0.8355, y=-0.4994
+true results: R=0.9734, Theta=-0.5387
+your results: R=0.9726, Theta=-0.5396
+
+input: x=0.8355, y=-0.3325
+true results: R=0.8993, Theta=-0.3788
+your results: R=0.8984, Theta=-0.3796
+
+input: x=0.8355, y=-0.1657
+true results: R=0.8518, Theta=-0.1957
+your results: R=0.8508, Theta=-0.1966
+
+input: x=0.8355, y=0.0012
+true results: R=0.8355, Theta=0.0014
+your results: R=0.8344, Theta=0.0007
+
+input: x=0.8355, y=0.1681
+true results: R=0.8523, Theta=0.1985
+your results: R=0.8511, Theta=0.1979
+
+input: x=0.8355, y=0.3349
+true results: R=0.9002, Theta=0.3812
+your results: R=0.8988, Theta=0.3809
+
+input: x=0.8355, y=0.5018
+true results: R=0.9746, Theta=0.5408
+your results: R=0.9732, Theta=0.5406
+
+input: x=0.8355, y=0.6687
+true results: R=1.0702, Theta=0.6749
+your results: R=1.0687, Theta=0.6748
+
+input: x=0.8355, y=0.8355
+true results: R=1.1816, Theta=0.7854
+your results: R=1.1801, Theta=0.7854
+
+   RMSE(R)           RMSE(Theta)
+0.000699231051840 0.001140282256529
+@I [SIM-1] CSim done with 0 errors.
