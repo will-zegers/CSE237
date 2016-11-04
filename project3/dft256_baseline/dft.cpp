@@ -7,6 +7,7 @@
 void dft(DTYPE real_sample[SIZE], DTYPE imag_sample[SIZE])
 {
 	DTYPE w, c, s;
+	idx_t idx;
 
 	DTYPE real_temp[N] = {0};
 	DTYPE imag_temp[N] = {0};
@@ -15,10 +16,10 @@ void dft(DTYPE real_sample[SIZE], DTYPE imag_sample[SIZE])
 		w = 2 * M_PI * i / N;
 		for (int j = 0; j < N; j++) {
 			c = cos(j * w);
-			s = sin(j * w);
+			s = -sin(j * w);
 
 			real_temp[i] += (real_sample[j] * c - imag_sample[j] * s);
-			imag_temp[i] -= (real_sample[j] * s + imag_sample[j] * c);
+			imag_temp[i] += (real_sample[j] * s + imag_sample[j] * c);
 		}
 	}
 
