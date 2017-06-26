@@ -1,0 +1,7 @@
+# Boilerplate directories
+*.xml
+*.rpt
+*.slx
+*.sh
+*.log
+copy_opt_files
